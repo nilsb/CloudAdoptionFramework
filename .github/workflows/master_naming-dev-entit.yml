@@ -19,6 +19,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
+          path: ./ready/AzNamingTool
           dotnet-version: '6.0.x'
           include-prerelease: true
 
